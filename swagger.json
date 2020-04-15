@@ -5,7 +5,7 @@
     "version" : "1.0.0",
     "title" : "Synonyms API"
   },
-  "host" : "localhost:5002",
+  "host" : "localhost:8080",
   "basePath" : "/api/v1",
   "tags" : [ {
     "name" : "Probes",
@@ -564,6 +564,12 @@
           "type" : "string"
         }, {
           "name" : "designation_all",
+          "in" : "query",
+          "description" : "",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "prefix_list",
           "in" : "query",
           "description" : "",
           "required" : false,
